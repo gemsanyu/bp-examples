@@ -1,4 +1,4 @@
-from fcfs import FCFSScheduler
+from scheduler.fcfs import FCFSScheduler
 
 class EASYScheduler(FCFSScheduler):
   def __str__(self) -> str:
